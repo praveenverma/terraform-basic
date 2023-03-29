@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is learning GitHub Actions. Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
 on: [push]
 jobs:
   check-bats-version:
